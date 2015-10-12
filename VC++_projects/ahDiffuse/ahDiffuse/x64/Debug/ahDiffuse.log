@@ -1,0 +1,14 @@
+﻿Build started 5/28/2015 4:31:20 PM.
+     1>Project "D:\Arnold Shaders\VC++_projects\ahDiffuse\ahDiffuse\ahDiffuse.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Arnold Shaders\shaders\source\alShaders\common" /I"C:\openexr-1.4.0-vs2005\include\OpenEXR" /I"C:\solidangle\releases\Arnold-4.2.0.5-windows\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AHDIFFUSE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ahDiffuse.cpp
+         ahDiffuse.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\shaders\dlls\ahDiffuse.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\openexr-1.4.0-vs2005\lib" /LIBPATH:"C:\solidangle\releases\Arnold-4.2.0.5-windows\lib" ai.lib Imath.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\shaders\dlls\ahDiffuse.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\shaders\dlls\ahDiffuse.lib" /MACHINE:X64 /DLL x64\Debug\ahDiffuse.obj
+         ahDiffuse.vcxproj -> D:\Arnold Shaders\VC++_projects\ahDiffuse\ahDiffuse\..\..\..\shaders\dlls\ahDiffuse.dll
+     1>Done Building Project "D:\Arnold Shaders\VC++_projects\ahDiffuse\ahDiffuse\ahDiffuse.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17

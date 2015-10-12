@@ -1,0 +1,12 @@
+﻿Build started 3/4/2015 3:13:19 PM.
+     1>Project "D:\Arnold Shaders\VC++_projects\simpleShader\simpleShader.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Arnold Shaders\shaders\dlls\simpleShader.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\solidangle\releases\Arnold-4.2.0.5-windows\lib" ai.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Arnold Shaders\shaders\dlls\simpleShader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Arnold Shaders\shaders\dlls\simpleShader.lib" /MACHINE:X64 /DLL x64\Debug\simpleShader.obj
+            Creating library D:\Arnold Shaders\shaders\dlls\simpleShader.lib and object D:\Arnold Shaders\shaders\dlls\simpleShader.exp
+         simpleShader.vcxproj -> D:\Arnold Shaders\shaders\dlls\simpleShader.dll
+     1>Done Building Project "D:\Arnold Shaders\VC++_projects\simpleShader\simpleShader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14

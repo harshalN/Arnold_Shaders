@@ -1,0 +1,42 @@
+[node hnSkin]
+    desc                    STRING      "Non-energy conserving skin shader"
+    maya.name               STRING      "hnSkin"
+    maya.classification     STRING      "shader/surface"
+    maya.id                 INT         0x00116410
+    
+    [attr diffuseStrength]
+        min                 FLOAT           0
+        max                 FLOAT           1
+        
+    [attr diffuseColor]
+		maya.name			STRING		"diffuseColor"
+    [attr diffuseRoughness]
+        min                 FLOAT           0
+        max                 FLOAT           1
+        
+	[attr specularStrength]
+		min					FLOAT			0
+		max					FLOAT			1
+		
+	[attr specularColor]
+		maya.name			STRING		"specularColor"
+		
+	[attr specularRoughness]
+		min					FLOAT			0
+		max					FLOAT			1
+		
+	[attr specularNormal]
+		maya.name			STRING		"specularNormal"
+		
+	[attr sssStrength]
+		maya.name			STRING		"sssStrength"
+		
+	[attr sssRadius]
+		min					FLOAT			0
+		max					FLOAT			1
+		
+	[attr sssRadiusColor]
+		maya.name			STRING		"sssRadiusColor"
+	
+		
+	

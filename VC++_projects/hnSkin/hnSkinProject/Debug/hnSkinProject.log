@@ -1,0 +1,53 @@
+﻿Build started 8/26/2015 8:21:10 PM.
+     1>Project "D:\Arnold Shaders\VC++_projects\hnSkin\hnSkinProject\hnSkinProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\solidangle\releases\Arnold-4.2.0.5-windows\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hnSkin.cpp
+         hnSkin.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Arnold Shaders\shaders\dlls\hnSkin.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\solidangle\releases\Arnold-4.2.0.5-windows\lib" ai.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Arnold Shaders\shaders\dlls\hnSkin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Arnold Shaders\shaders\dlls\hnSkin.lib" /MACHINE:X86 /DLL Debug\alUtil.obj
+         Debug\hnSkin.obj
+            Creating library D:\Arnold Shaders\shaders\dlls\hnSkin.lib and object D:\Arnold Shaders\shaders\dlls\hnSkin.exp
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiSamplerIterator referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiSamplerGetSample referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiSamplerGetSampleInvCount referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiSamplerDestroy referenced in function "void __cdecl Finish(struct AtNode *)" (?Finish@@YAXPAUAtNode@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeParamInt referenced in function "void __cdecl Parameters(struct AtList *,struct AtMetaDataStore *)" (?Parameters@@YAXPAUAtList@@PAUAtMetaDataStore@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeParamFlt referenced in function "void __cdecl Parameters(struct AtList *,struct AtMetaDataStore *)" (?Parameters@@YAXPAUAtList@@PAUAtMetaDataStore@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeParamRGB referenced in function "void __cdecl Parameters(struct AtList *,struct AtMetaDataStore *)" (?Parameters@@YAXPAUAtList@@PAUAtMetaDataStore@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeParamVec referenced in function "void __cdecl Parameters(struct AtList *,struct AtMetaDataStore *)" (?Parameters@@YAXPAUAtList@@PAUAtMetaDataStore@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeIsLinked referenced in function "void __cdecl Update(struct AtNode *,union AtParamValue *)" (?Update@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeGetLocalData referenced in function "void __cdecl Update(struct AtNode *,union AtParamValue *)" (?Update@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeSetLocalData referenced in function "void __cdecl Initialize(struct AtNode *,union AtParamValue *)" (?Initialize@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiNodeGetInt referenced in function "void __cdecl Update(struct AtNode *,union AtParamValue *)" (?Update@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiAOVSetRGB referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiAOVRegister referenced in function "void __cdecl Update(struct AtNode *,union AtParamValue *)" (?Update@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiEvaluateLightSample referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiOrenNayarMISBRDF referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiOrenNayarMISPDF referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiOrenNayarMISSample referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiOrenNayarMISCreateData referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiCookTorranceMISBRDF referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiCookTorranceMISPDF referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiCookTorranceMISSample referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiCookTorranceMISCreateData referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiMakeRay referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiTrace referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiLightsPrepare referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiLightsGetSample referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiLightGetColor referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiLightGetDiffuse referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiLightGetSpecular referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiBSSRDFCubic referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiShaderEvalParamFuncFlt referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiShaderEvalParamFuncRGB referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiShaderEvalParamFuncVec referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiBuildLocalFramePolar referenced in function "void __cdecl Evaluate(struct AtNode *,struct AtShaderGlobals *)" (?Evaluate@@YAXPAUAtNode@@PAUAtShaderGlobals@@@Z)
+     1>hnSkin.obj : error LNK2019: unresolved external symbol __imp__AiUniverseGetOptions referenced in function "void __cdecl Update(struct AtNode *,union AtParamValue *)" (?Update@@YAXPAUAtNode@@PATAtParamValue@@@Z)
+     1>hnSkin.obj : error LNK2001: unresolved external symbol __imp__AI_RGB_BLACK
+     1>D:\Arnold Shaders\shaders\dlls\hnSkin.dll : fatal error LNK1120: 37 unresolved externals
+     1>Done Building Project "D:\Arnold Shaders\VC++_projects\hnSkin\hnSkinProject\hnSkinProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.26
