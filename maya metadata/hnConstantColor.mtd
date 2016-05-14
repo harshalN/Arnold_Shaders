@@ -1,0 +1,8 @@
+[node hnSkin]
+    desc                    STRING      "Constant Color Shader"
+    maya.name               STRING      "hnConstantColor"
+    maya.classification     STRING      "shader/surface"
+    maya.id                 INT         0x00070010
+    
+    [attr color]
+		maya.name			STRING		"color"

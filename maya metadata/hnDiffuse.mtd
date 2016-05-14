@@ -1,0 +1,16 @@
+[node hnSkin]
+    desc                    STRING      "Simple Diffuse Shader"
+    maya.name               STRING      "hnDiffuse"
+    maya.classification     STRING      "shader/surface"
+    maya.id                 INT         0x00070015
+    
+    [attr color]
+		maya.name			STRING		"color"
+		
+	[attr intensity]
+        min                 FLOAT           0
+        max                 FLOAT           1
+	
+    [attr roughness]
+        min                 FLOAT           0
+        max                 FLOAT           1
